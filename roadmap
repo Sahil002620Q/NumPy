@@ -1,0 +1,214 @@
+Chapter 2: Array Creation ⭐⭐⭐ (Highest Priority)
+
+Learn:
+
+np.zeros()
+np.ones()
+np.empty()
+np.full()
+np.arange()
+np.linspace()
+np.eye()
+np.identity()
+np.diag()
+np.zeros_like()
+np.ones_like()
+np.full_like()
+
+Practice:
+
+Create arrays of different shapes.
+Compare arange() vs linspace().
+Create identity matrices.
+Chapter 3: Shape Manipulation ⭐⭐⭐
+
+Learn:
+
+reshape()
+resize()
+flatten()
+ravel()
+transpose()
+.T
+swapaxes()
+expand_dims()
+squeeze()
+newaxis (None)
+
+Practice:
+
+Convert 1D ↔ 2D.
+Convert row ↔ column vectors.
+Flatten matrices.
+Chapter 4: Indexing & Slicing (Advanced) ⭐⭐⭐
+
+Learn:
+
+Boolean indexing
+Fancy indexing
+Integer indexing
+Multiple conditions
+Masking
+Negative slicing
+Step slicing
+Selecting rows/columns
+where()
+
+Practice:
+
+Select even numbers.
+Replace values.
+Extract rows/columns.
+Chapter 5: Mathematical Operations ⭐⭐⭐
+
+Learn:
+
++
+-
+*
+/
+//
+%
+**
+sqrt()
+power()
+abs()
+round()
+clip()
+
+Practice:
+
+Matrix calculations.
+Distance formulas.
+Chapter 6: Statistics ⭐⭐⭐
+
+Learn:
+
+sum()
+mean()
+median()
+std()
+var()
+min()
+max()
+argmin()
+argmax()
+percentile()
+quantile()
+
+Practice:
+
+Dataset statistics.
+Chapter 7: Broadcasting ⭐⭐⭐⭐
+
+Learn:
+
+Broadcasting rules
+Scalar broadcasting
+Row broadcasting
+Column broadcasting
+Shape compatibility
+Broadcasting errors
+
+This is one of the most important NumPy topics for ML.
+
+Chapter 8: Random Module ⭐⭐⭐
+
+Learn:
+
+rand()
+randn()
+randint()
+random()
+choice()
+shuffle()
+permutation()
+seed()
+
+Practice:
+
+Generate datasets.
+Shuffle data.
+Chapter 9: Joining & Splitting ⭐⭐⭐
+
+Learn:
+
+concatenate()
+stack()
+vstack()
+hstack()
+dstack()
+split()
+hsplit()
+vsplit()
+Chapter 10: Searching & Sorting ⭐⭐⭐
+
+Learn:
+
+sort()
+argsort()
+searchsorted()
+unique()
+nonzero()
+count_nonzero()
+isin()
+Chapter 11: Iteration ⭐⭐⭐
+
+Learn:
+
+Normal iteration
+nditer
+ndenumerate
+Iterate by rows
+Iterate by columns
+Chapter 12: Copy vs View ⭐⭐⭐⭐
+
+Learn:
+
+Assignment
+View
+Copy
+base
+Shallow vs deep copy (NumPy perspective)
+
+This topic causes many beginner mistakes.
+
+Chapter 13: Linear Algebra ⭐⭐⭐⭐
+
+Learn:
+
+Matrix multiplication
+dot()
+matmul()
+@
+Determinant
+Inverse
+Rank
+Eigenvalues
+Eigenvectors
+
+Essential for ML.
+
+Chapter 14: Useful Functions ⭐⭐⭐
+
+Learn:
+
+all()
+any()
+allclose()
+array_equal()
+repeat()
+tile()
+pad()
+roll()
+flip()
+rot90()
+Chapter 15: File Handling ⭐⭐⭐
+
+Learn:
+
+save()
+load()
+savetxt()
+loadtxt()
+genfromtxt()
